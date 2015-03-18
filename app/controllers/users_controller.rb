@@ -10,6 +10,7 @@ class UsersController < ApplicationController
     else
       flash[:alert] = "There was a problem creating your account. Please try again"
       redirect_to :back
+    end
   end
 
   private
